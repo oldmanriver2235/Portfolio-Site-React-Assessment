@@ -1,0 +1,62 @@
+.ResumePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 800px;
+    height: 2400px;
+    opacity: 0.7;
+    flex-direction: column;
+    padding: 25px;
+    color: white;
+    z-index: 1;
+}
+
+.ResumeTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40pt;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionTitle {
+    display: flex; 
+    justify-content: flex-start;
+    text-decoration: underline;
+    font-size: 13pt;
+}
+
+.Paragraph {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12pt;
+
+}
+.Name {
+    display: flex;
+    justify-content: center;
+    font-size: 18pt;
+}
+.Italics{
+    display: flex;
+    font-style: italic;
+    justify-content: flex-start;
+
+}
+.JobDates{
+    display: flex;
+
+}
+
+.ResumeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

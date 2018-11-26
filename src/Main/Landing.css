@@ -1,0 +1,84 @@
+.entireNavBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  height: 40px;
+}
+
+.navBarDropdown {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 2;
+
+}
+
+.navBar {
+  display: flex;
+  width: 200px; 
+
+}
+.navBarToggler {
+  display: flex;
+  width: 200px;
+  justify-content: flex-end;
+  
+}
+
+.homeButton {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid rgb(219, 216, 216);
+  background-color: rgb(68, 66, 66);
+  padding: 10px; 
+  width: 200px;
+  height: 40px; 
+  justify-content: center;
+  align-items: center;
+  font-size: 20pt;
+  color: white;
+
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: white;
+  background-color: rgb(68, 66, 66);
+}
+/*the three black lines in the nav bar dropdown*/
+navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+body {  
+background-image: url('https://png.pngtree.com/thumb_back/fw800/back_pic/04/48/75/04585a6e746336b.jpg');
+background-repeat: none;
+background-size: cover;
+justify-content: center;
+align-content: center;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.treeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.LandingPageImage {
+  display: flex;
+  background-color: transparent;
+  width: 1200px;
+  height: 600px;
+}
+
+
+
