@@ -17,7 +17,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import PortfolioBlocks from './Portfolio'
 import Resume from './Resume'
 import AboutMe from './AboutMe'
-import Trees from './images/Trees.jpg'
+import Trees from './images/Trees.png'
 export default class Example extends React.Component {
   constructor (props) {
     super(props)
@@ -76,7 +76,7 @@ export default class Example extends React.Component {
                   <CardImg
                     top
                     width='100%'
-                    src={require('./images/Trees.jpg')}
+                    src={require('./images/Trees.png')}
                     alt='Landing page graphic'
                   />
                 </Card>

@@ -79,6 +79,13 @@ header{
   width: 1200px;
   height: 600px;
 }
-
-
+div.card.card-body {
+  background-color: transparent;
+  opacity: 1;
+  border: 0px
+}
+.card-body {
+  flex: 1 1 auto;
+  padding: 0;
+}
 
